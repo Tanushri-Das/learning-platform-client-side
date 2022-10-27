@@ -70,7 +70,7 @@ const Register = () => {
 
   return (
     <div className="w-50 mx-auto mt-5">
-        <h3 className="text-warning mb-4">Please Register Now !!! </h3>
+        <h3 className="text-warning mb-4 over">Please Register Now !!! </h3>
       <Form onSubmit={handleSubmit}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Your Full Name</Form.Label>
