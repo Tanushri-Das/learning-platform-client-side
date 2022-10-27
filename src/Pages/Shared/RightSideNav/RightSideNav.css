@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.column{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    margin-top:30px;
+    gap:15px;
+}
+.title{
+    overflow-y: hidden;
+}
+.name-btn{
+    bottom: 0;
+}
+
+@media screen and (max-width:576px){
+    .column{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* .card{
+        height: 680px;
+    } */
+}

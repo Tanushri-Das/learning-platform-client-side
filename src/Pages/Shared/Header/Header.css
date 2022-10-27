@@ -1,0 +1,11 @@
+Nav a{
+  text-decoration: none;
+  font-size: 18px;
+  color: darkorchid;
+}
+@media screen and (max-width:576px){
+  Nav a{
+    text-align: center;
+  }
+
+}

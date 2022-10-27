@@ -1,0 +1,20 @@
+.card{
+    width:700px;
+    height: 500px;
+    margin:0 auto;
+}
+.card-img{
+    width: 400px;
+    height: 400px;
+}
+.title{
+    overflow-y: hidden;
+}
+.video{
+    overflow-y: hidden;
+}
+@media screen and (max-width:576px){
+    .card{
+        width:100%;
+    }
+}
