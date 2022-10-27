@@ -88,7 +88,7 @@ const Login = () => {
       </Form>
        <div>
        <Button variant="outline-success" onClick={handleGoogleSignIn} className="me-5">Login with Google</Button>
-      <Button variant="outline-info" onClick={handleGithubSignIn} className="mt-3">Login with Github</Button>
+      <Button variant="outline-info" onClick={handleGithubSignIn} className="github">Login with Github</Button>
        </div>
      
       <p className="mt-3">
