@@ -21,7 +21,7 @@ const Details = () => {
             <Card.Text>
               <p>{course.details}</p>
             </Card.Text>
-            <ReactPlayer url={course.video} className="video" />
+           
           </Card.Body>
         </Card>
       </div>

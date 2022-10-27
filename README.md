@@ -72,8 +72,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Project Name : Dream CSE
 Live Site Link :
-Client Side Link :
-Server Side Link :
+Client Side Link :[Dream CSE](https://github.com/programming-hero-web-course1/b610-learning-platform-client-side-Tanushri-Das)
+Server Side Link : https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-Tanushri-Das
 
 Explain of my project:
 * At First I create two different types folder. which is for client side and server site.

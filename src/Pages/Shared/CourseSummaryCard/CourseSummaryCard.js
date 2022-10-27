@@ -16,9 +16,7 @@ const CourseSummaryCard = ({ course }) => {
           <Card.Body>
             <Card.Title className="title">{title}</Card.Title>
             <Card.Text>{details.slice(0, 300) + "..."}</Card.Text>
-            <Link to="/courses/01">
-              <Button variant="primary">Go somewhere</Button>
-            </Link>
+            
           </Card.Body>
         </Card>
      
