@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../Context/AuthProvider/AuthProvider";
+import '../Login/Login.css';
 
 const Login = () => {
 
@@ -65,7 +66,7 @@ const Login = () => {
     }
   return (
     <div className="w-50 mx-auto mt-5">
-        <h3 className="text-success">Please Login !!! </h3>
+        <h3 className="text-success heading">Please Login !!! </h3>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
@@ -86,8 +87,8 @@ const Login = () => {
         
       </Form>
        <div>
-       <Button variant="outline-success" onClick={handleGoogleSignIn} className="me-5 mb-3">Login with Google</Button>
-      <Button variant="outline-info" onClick={handleGithubSignIn}>Login with Github</Button>
+       <Button variant="outline-success" onClick={handleGoogleSignIn} className="me-5">Login with Google</Button>
+      <Button variant="outline-info" onClick={handleGithubSignIn} className="mt-3">Login with Github</Button>
        </div>
      
       <p className="mt-3">

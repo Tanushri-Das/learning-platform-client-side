@@ -76,4 +76,11 @@ Client Side Link :
 Server Side Link :
 
 Explain of my project:
-
+* At First I create two different types folder. which is for client side and server site.
+for creating client site i use create-react-app. 
+* For the designing purpose i use the react-bootstrap framework.
+* I use firebase config and to get user's info i use Email, password , google and github login provider from firebase.
+* For different types of icons i use react-icons
+* For creating a pdf method i use html2canvas and react-pdf.
+* I use environmet variable.
+* Last but not the list for deploying i use firebase hosting and vercel.
